@@ -92,7 +92,7 @@ class TicTacToe
      full? || won?
    end
 
-    def winner(board)
+    def winner
       if won? != nil
       return @board[won?(@board)[0]]
     end
