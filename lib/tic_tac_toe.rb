@@ -93,7 +93,7 @@ class TicTacToe
    end
 
     def winner
-      if won? == win_combination
+      if won?
       return @board[win_combination.first]
     end
 end
